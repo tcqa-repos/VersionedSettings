@@ -3,6 +3,9 @@
   <name>Artifact Publishing Test Configuration</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="**/subfolder =&gt; " />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_738" name="" type="simpleRunner">
