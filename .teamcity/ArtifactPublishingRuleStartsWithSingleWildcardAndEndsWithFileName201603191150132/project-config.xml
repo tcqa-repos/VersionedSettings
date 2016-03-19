@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b927bbbc-168a-43c8-8a0d-6d8f811080cf" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Artifact Publishing rule starts with single wildcard and ends with file name 2016-03-19 11:50:13.262</name>
+  <parameters />
+  <cleanup />
+</project>
+
