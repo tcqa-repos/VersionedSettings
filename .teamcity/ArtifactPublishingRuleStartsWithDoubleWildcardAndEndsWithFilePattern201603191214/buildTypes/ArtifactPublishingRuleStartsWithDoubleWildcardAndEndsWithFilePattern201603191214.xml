@@ -3,6 +3,9 @@
   <name>Artifact Publishing Test Configuration</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="**/*.txt =&gt; " />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_755" name="" type="simpleRunner">
