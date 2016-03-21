@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="5908b400-027b-4d38-8dcb-c4baea34ad58" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Artifact Publishing rule starts with double wildcard and ends with file pattern 2016-03-19 11:46:50.871</name>
+  <parameters />
+  <cleanup />
+</project>
+
