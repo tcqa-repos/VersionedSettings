@@ -3,7 +3,9 @@
   <name>Build1</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="param" value="" />
+    </parameters>
     <build-runners />
     <vcs-settings />
     <requirements />
