@@ -13,11 +13,7 @@
     <requirements />
     <build-triggers />
     <dependencies>
-      <depend-on sourceBuildTypeId="ProjectB_2_Build1">
-        <options>
-          <option name="run-build-if-dependency-failed" value="RUN_ADD_PROBLEM" />
-        </options>
-      </depend-on>
+      <depend-on sourceBuildTypeId="ProjectB_2_Build1" />
     </dependencies>
     <cleanup />
   </settings>
