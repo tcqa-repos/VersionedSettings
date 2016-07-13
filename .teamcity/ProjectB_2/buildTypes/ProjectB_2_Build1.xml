@@ -20,6 +20,7 @@
   </Jdk>
 </iprInfo>]]></param>
           <param name="jvmArgs" value="-Xmx256m" />
+          <param name="target.jdk.home" value="%env.JDK_18%" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
