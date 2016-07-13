@@ -13,7 +13,7 @@
       <runner id="RUNNER_638" name="" type="JPS">
         <parameters>
           <param name="iprInfoRunParam"><![CDATA[<iprInfo path-to-ipr="" should-load-iml="true" should-load-run-configurations="false" should-load-artifacts="false">
-  <Jdk name="1.7" is-used="true" type="JavaSDK" path-to-jdk="%env.JDK_17%">
+  <Jdk name="1.7" is-used="true" type="JavaSDK" path-to-jdk="%env.JDK_18%">
     <Pattern value="jre/lib/*.jar" />
     <Pattern value="jre/lib/ext/jfxrt.jar" />
     <ExternalAnnotationPattern value="%teamcity.tool.idea%/lib/jdkAnnotations.jar" />
