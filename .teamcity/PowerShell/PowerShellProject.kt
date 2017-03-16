@@ -41,4 +41,14 @@ object PowerShellProject : Project({
         }
     }))
 
+    buildType(BuildType({
+        name = "NoProfile absent"
+        extId = "${this.extId}_$name".toExtId()
+        uuid = extId
+
+        steps {
+            powerShell { }
+        }
+    }))
+
 })
