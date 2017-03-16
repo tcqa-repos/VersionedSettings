@@ -1,7 +1,6 @@
 package PowerShell
 
-import jetbrains.buildServer.configs.kotlin.v10.project
-import jetbrains.buildServer.configs.kotlin.v10.version
+import jetbrains.buildServer.configs.kotlin.v10.*
 
 /*
 The settings script is an entry point for defining a single
@@ -23,5 +22,5 @@ Subprojects can be defined either in their own settings.kts or by
 calling the subProjects() method in this project.
 */
 
-version = "10.0"
-project(PowerShell.PowerShellProject)
+version = "2017.1"
+project(PowerShell.Project)
