@@ -18,13 +18,25 @@ object PowerShellProject : Project({
     uuid = extId
 
     buildType(BuildType({
-        name = "PowerShell test"
+        name = "NoProfile true"
         extId = "${this.extId}_$name".toExtId()
         uuid = extId
 
         steps {
             powerShell {
-                param("jetbrains_powershell_scriptArguments", "args")
+                noProfile = true
+            }
+        }
+    }))
+
+    buildType(BuildType({
+        name = "NoProfile false"
+        extId = "${this.extId}_$name".toExtId()
+        uuid = extId
+
+        steps {
+            powerShell {
+                noProfile = false
             }
         }
     }))
