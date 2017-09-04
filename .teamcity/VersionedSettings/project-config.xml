@@ -9,7 +9,7 @@
         <param name="credentialsStorageType" value="credentialsJSON" />
         <param name="enabled" value="true" />
         <param name="rootId" value="VersionedSettings_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster" />
-        <param name="showChanges" value="true" />
+        <param name="showChanges" value="false" />
       </parameters>
     </extension>
   </project-extensions>
