@@ -8,6 +8,7 @@
         <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
         <param name="credentialsStorageType" value="credentialsJSON" />
         <param name="enabled" value="true" />
+        <param name="format" value="kotlin" />
         <param name="rootId" value="VersionedSettings_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster" />
         <param name="showChanges" value="false" />
       </parameters>

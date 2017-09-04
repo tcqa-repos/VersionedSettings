@@ -6,7 +6,7 @@ import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep.*
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 
 object VersionedSettings_TestProperty2 : BuildType({
-    uuid = "7ae9dcce-b934-4ff7-9e0a-e9036b615045"
+    uuid = "6e9e98b0-f463-427a-8003-c0268e64f12f"
     extId = "VersionedSettings_TestProperty2"
     name = "Test property 2"
 
