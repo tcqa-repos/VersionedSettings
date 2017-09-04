@@ -18,8 +18,9 @@ object Project : Project({
     vcsRoot(VersionedSettings_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster)
 
     buildType(VersionedSettings_TestProperty)
-    buildType(VersionedSettings_TestProperty3)
+    buildType(VersionedSettings_TestProperty31)
     buildType(VersionedSettings_TestProperty2)
+    buildType(VersionedSettings_TestProperty3_2)
 
     features {
         versionedSettings {
@@ -27,7 +28,7 @@ object Project : Project({
             mode = VersionedSettings.Mode.ENABLED
             buildSettingsMode = VersionedSettings.BuildSettingsMode.USE_CURRENT_SETTINGS
             rootExtId = VersionedSettings_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster.extId
-            showChanges = true
+            showChanges = false
             settingsFormat = VersionedSettings.Format.KOTLIN
             param("credentialsStorageType", "credentialsJSON")
         }
