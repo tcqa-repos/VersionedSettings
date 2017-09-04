@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="facb8b2d-2287-4b9b-9d39-b6542928a46c" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>https://github.com/tcqa-repos/VersionedSettings</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/2017.2" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:f450f0e3-c536-4090-89d4-1928a49c4a6b" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/tcqa-repos/VersionedSettings" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="tcqa-repos" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
