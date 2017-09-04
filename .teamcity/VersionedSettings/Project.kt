@@ -17,10 +17,9 @@ object Project : Project({
 
     vcsRoot(VersionedSettings_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster)
 
+    buildType(VersionedSettings_TestProperty311)
     buildType(VersionedSettings_TestProperty)
     buildType(VersionedSettings_TestProperty31)
-    buildType(VersionedSettings_TestProperty2)
-    buildType(VersionedSettings_TestProperty3_2)
 
     features {
         versionedSettings {
