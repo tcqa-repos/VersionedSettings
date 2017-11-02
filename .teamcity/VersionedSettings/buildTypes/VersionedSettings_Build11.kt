@@ -13,6 +13,7 @@ object VersionedSettings_Build11 : BuildType({
     steps {
         script {
             scriptContent = "echo hi"
+            formatStderrAsError = true
         }
     }
 })
