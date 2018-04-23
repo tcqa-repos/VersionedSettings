@@ -5,7 +5,9 @@
   <settings ref="VersionedSettings_TemplateA">
     <parameters />
     <build-runners />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Dependencies_ArtifactDependencie_HttpsGithubComJuliaReshMyProject_2" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
