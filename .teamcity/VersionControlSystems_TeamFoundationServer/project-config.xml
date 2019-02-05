@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="VersionControlSystems" uuid="3ed23954-66eb-44db-bbf0-0b500456367e" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Team Foundation Server</name>
+  <parameters>
+    <param name="teamcity.tfs.java.enable" value="true" />
+  </parameters>
+  <cleanup />
+</project>
+
