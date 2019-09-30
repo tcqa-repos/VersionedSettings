@@ -6,7 +6,9 @@
     <options>
       <option name="artifactRules" value="** =&gt; artifact-%build.number%.zip" />
     </options>
-    <parameters />
+    <parameters>
+      <param name="test" value="a" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_343" name="" type="simpleRunner">
         <parameters>
