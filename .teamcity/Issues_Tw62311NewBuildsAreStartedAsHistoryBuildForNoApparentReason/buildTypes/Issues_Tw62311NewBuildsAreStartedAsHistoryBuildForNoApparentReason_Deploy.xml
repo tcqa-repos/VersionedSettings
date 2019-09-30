@@ -9,7 +9,9 @@
       <option name="checkoutMode" value="ON_SERVER" />
       <option name="maximumNumberOfBuilds" value="1" />
     </options>
-    <parameters />
+    <parameters>
+      <param name="asdfg" value="" />
+    </parameters>
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster">
