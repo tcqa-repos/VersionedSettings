@@ -6,6 +6,7 @@
     <options>
       <option name="allowPersonalBuildTriggering" value="false" />
       <option name="buildConfigurationType" value="DEPLOYMENT" />
+      <option name="checkoutMode" value="ON_SERVER" />
       <option name="maximumNumberOfBuilds" value="1" />
     </options>
     <parameters />
