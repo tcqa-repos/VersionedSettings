@@ -17,6 +17,12 @@
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_61" sourceBuildTypeId="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_BuildWithArtifacts" cleanDestination="false">
+        <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
+        <artifact sourcePath="*" />
+      </dependency>
+    </artifact-dependencies>
     <cleanup />
   </settings>
 </build-type>
