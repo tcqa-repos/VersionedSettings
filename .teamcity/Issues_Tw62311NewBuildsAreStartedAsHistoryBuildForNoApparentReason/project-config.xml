@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="Issues" uuid="0a6e73e4-9bdb-4694-a019-27b21b099509" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>TW-62311 New builds are started as "History build" for no apparent reason</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_70" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="PREFER_VCS" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
