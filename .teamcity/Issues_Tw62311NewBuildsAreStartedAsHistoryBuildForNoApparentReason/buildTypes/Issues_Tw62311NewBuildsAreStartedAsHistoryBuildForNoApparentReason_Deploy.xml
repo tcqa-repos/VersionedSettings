@@ -11,7 +11,9 @@
     <parameters />
     <build-runners />
     <vcs-settings>
-      <vcs-entry-ref root-id="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster" />
+      <vcs-entry-ref root-id="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster">
+        <checkout-rule rule="+:src" />
+      </vcs-entry-ref>
     </vcs-settings>
     <requirements />
     <build-triggers />
