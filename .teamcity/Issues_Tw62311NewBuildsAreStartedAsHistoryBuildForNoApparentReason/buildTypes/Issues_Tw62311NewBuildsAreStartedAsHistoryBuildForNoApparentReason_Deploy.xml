@@ -14,7 +14,7 @@
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Issues_Tw62311NewBuildsAreStartedAsHistoryBuildForNoApparentReason_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster1">
-        <checkout-rule rule="+:src" />
+        <checkout-rule rule="+:test" />
       </vcs-entry-ref>
     </vcs-settings>
     <requirements />
