@@ -8,7 +8,7 @@
   <param name="ignoreKnownHosts" value="true" />
   <param name="secure:password" value="credentialsJSON:f450f0e3-c536-4090-89d4-1928a49c4a6b" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="url" value="https://github.com/tcqa-repos/My.Project" />
+  <param name="url" value="https://github.com/tcqa-repos/MyProject" />
   <param name="useAlternates" value="true" />
   <param name="username" value="tcqa-repos" />
   <param name="usernameStyle" value="USERID" />
