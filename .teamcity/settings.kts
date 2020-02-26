@@ -37,6 +37,7 @@ object Build : BuildType({
         nuGetPublish {
             toolPath = "%teamcity.tool.NuGet.CommandLine.DEFAULT%"
             packages = "*.nupkg"
+            serverUrl = "test"
         }
     }
 })
