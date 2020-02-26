@@ -31,7 +31,7 @@ project {
 }
 
 object Build : BuildType({
-    name = "Build"
+    name = "Build_2"
 
     steps {
         nuGetPublish {
