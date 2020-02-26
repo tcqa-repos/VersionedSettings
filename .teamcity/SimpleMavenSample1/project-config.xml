@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="cd9a0e03-1c8e-4901-be71-2795f504c951" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
-  <name>SimpleMavenSample (1)</name>
-  <parameters />
-  <cleanup />
-</project>
-
