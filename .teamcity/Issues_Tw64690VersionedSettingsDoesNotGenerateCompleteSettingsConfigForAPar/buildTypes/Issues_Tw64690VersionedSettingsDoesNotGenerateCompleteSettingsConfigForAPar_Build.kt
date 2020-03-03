@@ -10,6 +10,7 @@ object Issues_Tw64690VersionedSettingsDoesNotGenerateCompleteSettingsConfigForAP
     steps {
         nuGetPublish {
             toolPath = "%teamcity.tool.NuGet.CommandLine.DEFAULT%"
+            apiKey = "somevalue"
             packages = "*.nupkg"
         }
     }
