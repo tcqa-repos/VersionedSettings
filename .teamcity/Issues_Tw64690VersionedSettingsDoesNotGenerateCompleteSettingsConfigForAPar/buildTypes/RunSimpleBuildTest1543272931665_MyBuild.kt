@@ -9,6 +9,7 @@ object RunSimpleBuildTest1543272931665_MyBuild : BuildType({
     steps {
         nuGetPublish {
             toolPath = "%teamcity.tool.NuGet.CommandLine.DEFAULT%"
+            serverUrl = "aaa"
             apiKey = "somevalue"
             packages = "*.nupkg"
         }
