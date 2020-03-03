@@ -17,6 +17,7 @@ object Project : Project({
     vcsRoot(Issues_Tw64690VersionedSettingsDoesNotGenerateCompleteSettingsConfigForAPar_HttpsGithubComTcqaReposVersionedSettingsRefsHeadsMaster)
 
     buildType(Issues_Tw64690VersionedSettingsDoesNotGenerateCompleteSettingsConfigForAPar_Build)
+    buildType(RunSimpleBuildTest1543272931665_MyBuild)
 
     features {
         versionedSettings {
