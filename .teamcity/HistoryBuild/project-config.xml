@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="6ad74ee2-8e5a-4954-b83d-ebb7f4274e55" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>HistoryBuild</name>
+  <parameters />
+  <cleanup />
+</project>
+
