@@ -1,7 +1,8 @@
 package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_1.*
-import jetbrains.buildServer.configs.kotlin.v2018_1.BuildFeature
+import jetbrains.buildServer.configs.kotlin.v2018_1.SharedResources
+import jetbrains.buildServer.configs.kotlin.v2018_1.sharedResources
 import jetbrains.buildServer.configs.kotlin.v2018_1.ui.*
 
 /*
@@ -11,14 +12,13 @@ accordingly, and delete the patch script.
 */
 changeBuildType(RelativeId("Build")) {
     features {
-        val feature1 = find<BuildFeature> {
-            feature {
-                type = "JetBrains.SharedResources"
-                param("locks-param", "Resource_with_values readLock value1")
+        val feature1 = find<SharedResources> {
+            sharedResources {
+                lockSpecificValue("Resource_with_values", "value1")
             }
         }
         feature1.apply {
-            param("locks-param", "Resource_with_values readLock")
+            readLock("Resource_with_values")
         }
     }
 }
